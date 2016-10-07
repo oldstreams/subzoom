@@ -5,13 +5,17 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fa2d4340-b2b6-4d7f-be02-09657849905f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>subzoom.py</StartupFile>
+    <StartupFile>__main__.py</StartupFile>
     <SearchPath>
     </SearchPath>
-    <WorkingDirectory>.</WorkingDirectory>
+    <WorkingDirectory>d:\</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>subzoom</Name>
     <RootNamespace>subzoom</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>--from 00:00:04.11-00:43:10.30 --to 00:00:04.97-00:43:00.57 The.Flash.2014.S01E01.Pilot.1080p.WEB-DL.DD5.1.AAC2.0.H.264-YFN.简体&amp;英文.ass</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +27,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="subzoom.py" />
+    <Compile Include="__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="__main__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
